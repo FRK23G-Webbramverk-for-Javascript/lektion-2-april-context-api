@@ -19,7 +19,6 @@ function CartItem(props) {
         {/** Här vill du ersätta så att du läser in nuvarande "quantity" istället */}
         <img src={arrowDown} alt='decrease' />{' '}
         {/** Här ska du lägga till en onclick på img-elementet för att kunna minska kvantitet. När man klickar på knappen ska du göra en dispatch(decreaseQuantity()) till din redux store.  */}
-        <p className='quantity'>1</p>
       </aside>
     </article>
   );
